@@ -30,7 +30,7 @@ Constraints:
 class Solution:
 	def NthRoot(self, n, m):
 		# Code here
-	    l=1
+	l=1
         h=10**18
         while l<=h:
             mid=(l+h)//2
